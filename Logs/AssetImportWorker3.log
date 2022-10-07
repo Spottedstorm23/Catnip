@@ -15,7 +15,7 @@ C:/Users/Student/Documents/GitHub/Catnip
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56105
+62234
 Successfully changed project path to: C:/Users/Student/Documents/GitHub/Catnip
 C:/Users/Student/Documents/GitHub/Catnip
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Student/Documents/GitHub/Catnip
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 260.59 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 115.82 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -63,146 +63,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009413 seconds.
+Registered in 0.007714 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.67 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 114.04 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
+- Completed reload, in  0.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (879ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (786ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (632ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (387ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (352ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011739 seconds.
+Registered in 0.011484 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Documents\GitHub\Catnip\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Documents\GitHub\Catnip\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.91 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 110.52 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.035 seconds
+- Completed reload, in  1.472 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2037ms)
-		BeginReloadAssembly (323ms)
+	ReloadAssembly (1473ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1568ms)
-			LoadAssemblies (134ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1190ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (557ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (695ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (645ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (415ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.51 ms, found 9 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3927 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (57.7 KB). Loaded Objects now: 4374.
-Memory consumption went from 139.0 MB to 138.9 MB.
-Total: 4.567100 ms (FindLiveObjects: 1.004300 ms CreateObjectMapping: 0.331100 ms MarkObjects: 3.125700 ms  DeleteObjects: 0.104300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013968 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Documents\GitHub\Catnip\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Student\Documents\GitHub\Catnip\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.740 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1741ms)
-		BeginReloadAssembly (289ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (1299ms)
-			LoadAssemblies (176ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (386ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (608ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (447ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.53 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3907 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (25.7 KB). Loaded Objects now: 4378.
-Memory consumption went from 138.2 MB to 138.2 MB.
-Total: 4.128200 ms (FindLiveObjects: 0.362100 ms CreateObjectMapping: 0.326800 ms MarkObjects: 3.396800 ms  DeleteObjects: 0.041300 ms)
+Unloading 46 unused Assets / (57.5 KB). Loaded Objects now: 4391.
+Memory consumption went from 152.3 MB to 152.3 MB.
+Total: 4.887000 ms (FindLiveObjects: 0.403600 ms CreateObjectMapping: 0.350100 ms MarkObjects: 4.012900 ms  DeleteObjects: 0.118800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -216,100 +160,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5336.152359 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bathtub_Bathtub_MetallicSmoothness.png
-  artifactKey: Guid(ea9aa00ef1ffd904eab9c7b0cb11f8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bathtub_Bathtub_MetallicSmoothness.png using Guid(ea9aa00ef1ffd904eab9c7b0cb11f8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0504f1255bef3813bf578579ea293005') in 0.405741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Dresser_AlbedoTransparency.png
-  artifactKey: Guid(3e51db223e7c404409121ba8efebaa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Dresser_AlbedoTransparency.png using Guid(3e51db223e7c404409121ba8efebaa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7fdffa75b38025cc450a1b6af66b13') in 0.060695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Lamp_Lamp_AlbedoTransparency.png
-  artifactKey: Guid(1aadc84ffab9e434ab8eba984e8707c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Lamp_Lamp_AlbedoTransparency.png using Guid(1aadc84ffab9e434ab8eba984e8707c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d63dc33fd49fb10c39035830b5649a') in 0.048449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001466 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_Normal.png
-  artifactKey: Guid(8f47d1ceba5f10e4e845e287f58765fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_Normal.png using Guid(8f47d1ceba5f10e4e845e287f58765fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627b881bba630053dbe2134814872afd') in 0.117800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Footstool_Footstool_MetallicSmoothness.png
-  artifactKey: Guid(bee102f2b2c45c24e8351ca9fabde9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Footstool_Footstool_MetallicSmoothness.png using Guid(bee102f2b2c45c24e8351ca9fabde9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ad09196e779b69942671dd197ff7f3') in 0.031154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_AlbedoTransparency.png
-  artifactKey: Guid(48f33cc82fde24e48a09b52664c75496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_AlbedoTransparency.png using Guid(48f33cc82fde24e48a09b52664c75496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de0bbf954a987da24414e3ea12eab70') in 0.041821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Bed_MetallicSmoothness.png
-  artifactKey: Guid(024573a50bd108c4ebee965354b24334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Bed_MetallicSmoothness.png using Guid(024573a50bd108c4ebee965354b24334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b42e46c3f74449a9e839672f99fba3') in 0.062099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_AlbedoTransparency.png
-  artifactKey: Guid(2fc6a63b37436184490e4aea44c3855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_AlbedoTransparency.png using Guid(2fc6a63b37436184490e4aea44c3855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd33fceecaa268dbc163bd650f0d279') in 0.042185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Drawers_MetallicSmoothness.png
-  artifactKey: Guid(07e286671e6e4af4c9beefb118e6cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Nightstand_Drawers_MetallicSmoothness.png using Guid(07e286671e6e4af4c9beefb118e6cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18eafbf9eeb64ce2dd5dd3fefa3519c') in 0.056777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Drawers_MetallicSmoothness.png
-  artifactKey: Guid(a16b212abdf86954aa5d9462f9668cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Drawers_MetallicSmoothness.png using Guid(a16b212abdf86954aa5d9462f9668cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0fdccaba46994440a4ea5307940781') in 0.042658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_MetallicSmoothness.png
-  artifactKey: Guid(4adeb6cb264067a4c8ed37083715a715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Dresser_Dresser_MetallicSmoothness.png using Guid(4adeb6cb264067a4c8ed37083715a715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15b122885d4ed11f4e19ab3bcad1fe8') in 0.069512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005553 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_MetallicSmoothness.png
-  artifactKey: Guid(e0ef732f60e95ea49a0c893aadd0f863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Frame_MetallicSmoothness.png using Guid(e0ef732f60e95ea49a0c893aadd0f863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77d3347dad135bdf9ac583c57eb5823') in 0.057521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Bed_AlbedoTransparency.png
-  artifactKey: Guid(cf49951a491c6504f9b654c67d59f8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Bed_Bed_AlbedoTransparency.png using Guid(cf49951a491c6504f9b654c67d59f8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5448791943e627eb714122c220ddb0e8') in 0.052025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Toilet_Toilet_Normal.png
-  artifactKey: Guid(e745e7a4f1b9a9e41b76fa1d25667156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Toilet_Toilet_Normal.png using Guid(e745e7a4f1b9a9e41b76fa1d25667156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a882c4b99c44dc617b5bfafa17490b') in 0.040233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002123 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Footstool_Footstool_Normal.png
-  artifactKey: Guid(6db99443de29c3d488b9383b0a5064ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Footstool_Footstool_Normal.png using Guid(6db99443de29c3d488b9383b0a5064ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04b904156fc92501266fff9932f33d6') in 0.066007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Bed & Bath Furniture Pack/Materials/Textures/Lamp_Lamp_Normal.png
-  artifactKey: Guid(58cdb0cd23198d44797952034904b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bed & Bath Furniture Pack/Materials/Textures/Lamp_Lamp_Normal.png using Guid(58cdb0cd23198d44797952034904b7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15709da865b9ffa1856aa35aac694e1b') in 0.044050 seconds 
+  Time since last request: 7057.800457 seconds.
+  path: Assets/dark ages furn/FBX/bedside_table.fbx
+  artifactKey: Guid(f481b8b9ff802574a80706fa5fee1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dark ages furn/FBX/bedside_table.fbx using Guid(f481b8b9ff802574a80706fa5fee1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756e0799250520119d473c1f1cd4aad9') in 0.264734 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
