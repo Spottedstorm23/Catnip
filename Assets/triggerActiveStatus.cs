@@ -4,19 +4,32 @@ public class triggerActiveStatus : MonoBehaviour
 {
     public GameObject taskWindow;
 
-    public GameObject miniGameObjOne;
-    public GameObject miniGameObjTwo;
-    public GameObject miniGameObjThree;
+    public GameObject OneObjOne; // türkises Polygon
+    public GameObject OneObjTwo; // Käse
+    public GameObject OneObjThree; // Blauer Ball
+    public GameObject OneObjFour; // Wood Polygon
+    public GameObject OneObjFive; // Tasse
+    public GameObject OneObjSix; // Grüner Ball
+    public GameObject OneObjSeven; // Baum
+    public GameObject OneObjEight; // Ballon
 
-    public GameObject possibleAnswerRow0Col0; // türkis Polygon
-    public GameObject possibleAnswerRow0Col1; // Käse
-    public GameObject possibleAnswerRow0Col2; // Blauer Ball
-    public GameObject possibleAnswerRow0Col3; // Anderes Türkises thingy
+    public GameObject TwoObjOne; // türkises Polygon
+    public GameObject TwoObjTwo; // Käse
+    public GameObject TwoObjThree; // Blauer Ball
+    public GameObject TwoObjFour; // Wood Polygon
+    public GameObject TwoObjFive; // Tasse
+    public GameObject TwoObjSix; // Grüner Ball
+    public GameObject TwoObjSeven;
+    public GameObject TwoObjEight;
 
-    public GameObject possibleAnswerRow1Col0; // Tasse
-    public GameObject possibleAnswerRow1Col1; // Grüner Ball
-    public GameObject possibleAnswerRow1Col2; // Baum
-    public GameObject possibleAnswerRow1Col3; // Ballon
+    public GameObject ThreeObjOne; // türkises Polygon
+    public GameObject ThreeObjTwo; // Käse
+    public GameObject ThreeObjThree; // Blauer Ball
+    public GameObject ThreeObjFour; // Wood Polygon
+    public GameObject ThreeObjFive; // Tasse
+    public GameObject ThreeObjSix; // Grüner Ball
+    public GameObject ThreeObjSeven; // Baum
+    public GameObject ThreeObjEight; // Ballon
 
     // Start is called before the first frame update
     void Start()
@@ -62,30 +75,30 @@ public class triggerActiveStatus : MonoBehaviour
         {
             // row 0
             case 1: // türkis Polygon
-                miniGameObjOne = Instantiate(possibleAnswerRow0Col0);
+                OneObjOne.SetActive(true);
                 break;
             case 2: // Käse
-                miniGameObjOne = Instantiate(possibleAnswerRow0Col1);
+                OneObjTwo.SetActive(true);
                 break;
             case 3: // Blauer Ball
-                miniGameObjOne = Instantiate(possibleAnswerRow0Col2);
+                OneObjThree.SetActive(true);
                 break;
             case 4: // Anderes Türkises thingy
-                miniGameObjOne = Instantiate(possibleAnswerRow0Col3);
+                OneObjFour.SetActive(true);
                 break;
 
             // row 1
             case 5: // Tasse
-                miniGameObjOne = Instantiate(possibleAnswerRow1Col0);
+                OneObjFive.SetActive(true);
                 break;
             case 6: // Grüner Ball
-                miniGameObjOne = Instantiate(possibleAnswerRow1Col1);
+                OneObjSix.SetActive(true);
                 break;
             case 7: // Baum
-                miniGameObjOne = Instantiate(possibleAnswerRow1Col2);
+                OneObjSeven.SetActive(true);
                 break;
             case 8: // Ballon
-                miniGameObjOne = Instantiate(possibleAnswerRow1Col3);
+                OneObjEight.SetActive(true);
                 break;
             default:
                 // insert println(randomNumberOne) here
@@ -96,30 +109,30 @@ public class triggerActiveStatus : MonoBehaviour
         {
             // row 0
             case 1: // türkis Polygon
-                miniGameObjTwo = Instantiate(possibleAnswerRow0Col0);
+                TwoObjOne.SetActive(true);
                 break;
             case 2: // Käse
-                miniGameObjTwo = Instantiate(possibleAnswerRow0Col1);
+                TwoObjTwo.SetActive(true);
                 break;
             case 3: // Blauer Ball
-                miniGameObjTwo = Instantiate(possibleAnswerRow0Col2);
+                TwoObjThree.SetActive(true);
                 break;
             case 4: // Anderes Türkises thingy
-                miniGameObjTwo = Instantiate(possibleAnswerRow0Col3);
+                TwoObjFour.SetActive(true);
                 break;
 
             // row 1
             case 5: // Tasse
-                miniGameObjTwo = Instantiate(possibleAnswerRow1Col0);
+                TwoObjFive.SetActive(true);
                 break;
             case 6: // Grüner Ball
-                miniGameObjTwo = Instantiate(possibleAnswerRow1Col1);
+                TwoObjSix.SetActive(true);
                 break;
             case 7: // Baum
-                miniGameObjTwo = Instantiate(possibleAnswerRow1Col2);
+                TwoObjSeven.SetActive(true);
                 break;
             case 8: // Ballon
-                miniGameObjTwo = Instantiate(possibleAnswerRow1Col3);
+                TwoObjEight.SetActive(true);
                 break;
             default:
                 // insert println(randomNumberTwo) here
@@ -130,30 +143,30 @@ public class triggerActiveStatus : MonoBehaviour
         {
             // row 0
             case 1: // türkis Polygon
-                miniGameObjThree = Instantiate(possibleAnswerRow0Col0);
+                ThreeObjOne.SetActive(true);
                 break;
             case 2: // Käse
-                miniGameObjThree = Instantiate(possibleAnswerRow0Col1);
+                ThreeObjTwo.SetActive(true);
                 break;
             case 3: // Blauer Ball
-                miniGameObjThree = Instantiate(possibleAnswerRow0Col2);
+                ThreeObjThree.SetActive(true);
                 break;
             case 4: // Anderes Türkises thingy
-                miniGameObjThree = Instantiate(possibleAnswerRow0Col3);
+                ThreeObjFour.SetActive(true);
                 break;
 
             // row 1
             case 5: // Tasse
-                miniGameObjThree = Instantiate(possibleAnswerRow1Col0);
+                ThreeObjFive.SetActive(true);
                 break;
             case 6: // Grüner Ball
-                miniGameObjThree = Instantiate(possibleAnswerRow1Col1);
+                ThreeObjSix.SetActive(true);
                 break;
             case 7: // Baum
-                miniGameObjThree = Instantiate(possibleAnswerRow1Col2);
+                ThreeObjSeven.SetActive(true);
                 break;
             case 8: // Ballon
-                miniGameObjThree = Instantiate(possibleAnswerRow1Col3);
+                ThreeObjEight.SetActive(true);
                 break;
             default:
                 // insert println(randomNumberThree) here
@@ -164,5 +177,18 @@ public class triggerActiveStatus : MonoBehaviour
             " one:" + randomNumberOne +
             " | two: " + randomNumberTwo +
             " | three: " + randomNumberThree);
+
+
+        /*
+    possibleAnswerRow0Col0; // türkis Polygon
+    possibleAnswerRow0Col1; // Käse
+    possibleAnswerRow0Col2; // Blauer Ball
+    possibleAnswerRow0Col3; // Anderes Türkises thingy
+
+    possibleAnswerRow1Col0; // Tasse
+    possibleAnswerRow1Col1; // Grüner Ball
+    possibleAnswerRow1Col2; // Baum
+    possibleAnswerRow1Col3; // Ballon
+    */
     }
 }

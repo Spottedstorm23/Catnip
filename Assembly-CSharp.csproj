@@ -54,7 +54,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\triggerActiveStatus.cs" />
-    <Compile Include="Assets\triggerButtonPressed.cs" />
     <Compile Include="Assets\Base_Projekt\Proto Kitty\Demo\Cat_Lite_Demo.cs" />
   </ItemGroup>
   <ItemGroup>
