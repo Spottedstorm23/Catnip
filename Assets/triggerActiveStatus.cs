@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class triggerActiveStatus : MonoBehaviour
+public class TriggerActiveStatus : MonoBehaviour
 {
     public GameObject taskWindow;
 
@@ -20,8 +20,8 @@ public class triggerActiveStatus : MonoBehaviour
     public GameObject TwoObjFour; // Wood Polygon
     public GameObject TwoObjFive; // Tasse
     public GameObject TwoObjSix; // Grüner Ball
-    public GameObject TwoObjSeven;
-    public GameObject TwoObjEight;
+    public GameObject TwoObjSeven; // Baum
+    public GameObject TwoObjEight; // Ballon
 
     public GameObject ThreeObjOne; // türkises Polygon
     public GameObject ThreeObjTwo; // Käse
@@ -32,39 +32,9 @@ public class triggerActiveStatus : MonoBehaviour
     public GameObject ThreeObjSeven; // Baum
     public GameObject ThreeObjEight; // Ballon
 
-    private List<GameObject> ListOne;
-    private GameObject[] ArrayOne;
-    private GameObject[] ArrayTwo;
-    private GameObject[] ArrayThree;
-    
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-
-        // ListOne = new List<GameObject>();
-        ArrayOne = new GameObject[] {
-            OneObjOne, OneObjTwo,
-            OneObjThree, OneObjFour,
-            OneObjFive, OneObjSix,
-            OneObjSeven, OneObjEight
-        };
-
-    }
-    /*
-    private void SetObj()
-    {
-        OneObjOne = GameObject.Find("One Obj One").GetComponent<GameObject>();
-    }
-    */
-
-    // Update is called once per frame
-    void Update()
-    {
-  
-
-    }
+    public int randomNumberOne;
+    public int randomNumberTwo;
+    public int randomNumberThree;
 
     private void OnEnable()
     {
@@ -74,71 +44,27 @@ public class triggerActiveStatus : MonoBehaviour
 
     public void StartMiniGame()
     {
-        // Debug.Log("SetArrays()");
-        // SetArrays();
-
         Debug.Log("SetTask()");
         SetTask();
         // add timer here
     }
-
-    private void SetArrays()
-    {
-        /*
-        ListOne.Add((GameObject)OneObjOne);
-
-        OneObjOne = GameObject.Find("One Obj One").GetComponent<GameObject>();
-
-        ArrayOne[0] = OneObjOne; // NullReferenceException
-        ArrayOne[1] = OneObjTwo;
-        ArrayOne[2] = OneObjThree;
-        ArrayOne[3] = OneObjFour;
-        ArrayOne[4] = OneObjFive;
-        ArrayOne[5] = OneObjSix;
-        ArrayOne[6] = OneObjSeven;
-        ArrayOne[7] = OneObjEight;
-
-        ArrayTwo[0] = TwoObjOne;
-        ArrayTwo[1] = TwoObjTwo;
-        ArrayTwo[2] = TwoObjThree;
-        ArrayTwo[3] = TwoObjFour;
-        ArrayTwo[4] = TwoObjFive;
-        ArrayTwo[5] = TwoObjSix;
-        ArrayTwo[6] = TwoObjSeven;
-        ArrayTwo[7] = TwoObjEight;
-
-        ArrayThree[0] = ThreeObjOne;
-        ArrayThree[1] = ThreeObjTwo;
-        ArrayThree[2] = ThreeObjThree;
-        ArrayThree[3] = ThreeObjFour;
-        ArrayThree[4] = ThreeObjFive;
-        ArrayThree[5] = ThreeObjSix;
-        ArrayThree[6] = ThreeObjSeven;
-        ArrayThree[7] = ThreeObjEight;
-        */
-        
-    }
-
+    
     private void SetTask()
     {
-        float randomNumberOne = Random.Range(1, 8);
+        randomNumberOne = Random.Range(1, 8);
 
-        float randomNumberTwo = Random.Range(1, 8);
+        randomNumberTwo = Random.Range(1, 8);
         while (randomNumberTwo == randomNumberOne)
         {
             randomNumberTwo = Random.Range(1, 8);
         }
 
-        float randomNumberThree = Random.Range(1, 8);
+        randomNumberThree = Random.Range(1, 8);
         while (randomNumberThree == randomNumberOne | randomNumberThree == randomNumberTwo)
         {
             randomNumberThree = Random.Range(1, 8);
         }
 
-        // int randomNumberOneInt = (int) randomNumberOne;
-        // ArrayOne[randomNumberOneInt].SetActive(true);
-
- 
         switch (randomNumberOne)
         {
             // row 0
@@ -169,11 +95,10 @@ public class triggerActiveStatus : MonoBehaviour
                 OneObjEight.SetActive(true);
                 break;
             default:
-                // insert println(randomNumberOne) here
+                Debug.Log("randomNumberOne: " + randomNumberOne);
                 break;
         }
-
-
+        
         switch (randomNumberTwo)
         {
             // row 0
@@ -204,7 +129,7 @@ public class triggerActiveStatus : MonoBehaviour
                 TwoObjEight.SetActive(true);
                 break;
             default:
-                // insert println(randomNumberTwo) here
+                Debug.Log("randomNumberTwo: " + randomNumberTwo);
                 break;
         }
 
@@ -238,7 +163,7 @@ public class triggerActiveStatus : MonoBehaviour
                 ThreeObjEight.SetActive(true);
                 break;
             default:
-                // insert println(randomNumberThree) here
+                Debug.Log("randomNumberThree: " + randomNumberThree);
                 break;
         }
 
@@ -246,18 +171,5 @@ public class triggerActiveStatus : MonoBehaviour
             " one:" + randomNumberOne +
             " | two: " + randomNumberTwo +
             " | three: " + randomNumberThree);
-
-
-        /*
-    possibleAnswerRow0Col0; // türkis Polygon
-    possibleAnswerRow0Col1; // Käse
-    possibleAnswerRow0Col2; // Blauer Ball
-    possibleAnswerRow0Col3; // Anderes Türkises thingy
-
-    possibleAnswerRow1Col0; // Tasse
-    possibleAnswerRow1Col1; // Grüner Ball
-    possibleAnswerRow1Col2; // Baum
-    possibleAnswerRow1Col3; // Ballon
-    */
     }
 }

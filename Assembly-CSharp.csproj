@@ -53,7 +53,8 @@
     <UnityVersion>2021.3.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\triggerActiveStatus.cs" />
+    <Compile Include="Assets\TriggerActiveStatus.cs" />
+    <Compile Include="Assets\TriggerOnClickCards.cs" />
     <Compile Include="Assets\Base_Projekt\Proto Kitty\Demo\Cat_Lite_Demo.cs" />
   </ItemGroup>
   <ItemGroup>
