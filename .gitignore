@@ -114,3 +114,6 @@ Nuget.config*
 # Other files #
 # =========== #
 .DS_Store
+.idea
+Logs
+UserSettings
