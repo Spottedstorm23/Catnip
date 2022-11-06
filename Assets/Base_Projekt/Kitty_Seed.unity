@@ -88164,8 +88164,8 @@ RectTransform:
   m_Children:
   - {fileID: 1837006506}
   - {fileID: 965272392}
-  m_Father: {fileID: 1708802062}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -88191,11 +88191,6 @@ MonoBehaviour:
   ThirdBox: {fileID: 1580489679}
   FourthBox: {fileID: 1438023772}
   FifthBox: {fileID: 821761977}
-  PlantOne: {fileID: 0}
-  PlantTwo: {fileID: 0}
-  PlantThree: {fileID: 0}
-  PlantFour: {fileID: 0}
-  PlantFive: {fileID: 0}
 --- !u!1 &1518891846
 GameObject:
   m_ObjectHideFlags: 0
@@ -89141,7 +89136,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535190236}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.8908765, y: 1.383472, z: -0.29080498}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -89151,8 +89146,8 @@ Transform:
   - {fileID: 936340500}
   - {fileID: 955045181}
   - {fileID: 306807664}
-  m_Father: {fileID: 1934078517}
-  m_RootOrder: 10
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1537222681
 GameObject:
@@ -97432,7 +97427,6 @@ Transform:
   - {fileID: 327568337}
   - {fileID: 1903347729}
   - {fileID: 1492692259}
-  - {fileID: 1518710990}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -110834,7 +110828,6 @@ Transform:
   - {fileID: 743103104}
   - {fileID: 821761978}
   - {fileID: 975758712}
-  - {fileID: 1535190237}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
