@@ -50,11 +50,17 @@ public class TriggerOnClickCards : MonoBehaviour
     public GameObject miniGameThree7;
     public GameObject miniGameThree8;
 
+    public bool successOne = false;
+    public bool successTwo = false;
+    public bool successThree = false;
+
     private void Awake()
     {
+        
         Debug.Log("Awake");
         triggerActiveStatusScript =
             flowerTask.GetComponent<TriggerActiveStatus>();
+           
     }
 
     public void OnClick()
@@ -65,7 +71,6 @@ public class TriggerOnClickCards : MonoBehaviour
 
     private void SetVars()
     {
-        // er bekommt nicht die richtigen Werte!
         randomNumberOneScript = triggerActiveStatusScript.randomNumberOne;
         randomNumberTwoScript = triggerActiveStatusScript.randomNumberTwo;
         randomNumberThreeScript = triggerActiveStatusScript.randomNumberThree;
@@ -78,57 +83,73 @@ public class TriggerOnClickCards : MonoBehaviour
             case 1:
               if (index == 1)
                 {
-                    CurrentButton.SetActive(false);
+                    successOne = true;
+                    Debug.Log("index " + index + ", successOne " + successOne);
                     miniGameOne1.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 2:
                 if (index == 2)
                 {
-                    CurrentButton.SetActive(false);
+                    successOne = true;
+                    Debug.Log("index " + index + ", successOne " + successOne);
                     miniGameOne2.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 3:
                 if (index == 3)
                 {
-                    CurrentButton.SetActive(false);
+                    successOne = true;
+                    Debug.Log("index " + index + ", successOne " + successOne);
                     miniGameOne3.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 4:
                 if (index == 4)
                 {
-                    CurrentButton.SetActive(false);
+                    successOne = true;
+                    Debug.Log("index " + index + ", successOne " + successOne);
                     miniGameOne4.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 5:
                 if (index == 5)
                 {
-                    CurrentButton.SetActive(false);
+                    successOne = true;
+                    Debug.Log("index " + index + ", successOne " + successOne);
                     miniGameOne5.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 6:
                 if (index == 6)
                 {
-                    CurrentButton.SetActive(false);
+                    successOne = true;
+                    Debug.Log("index " + index + ", successOne " + successOne);
                     miniGameOne6.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 7:
                 if (index == 7)
                 {
-                    CurrentButton.SetActive(false);
+                    successOne = true;
+                    Debug.Log("index " + index + ", successOne " + successOne);
                     miniGameOne7.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 8:
                 if (index == 8)
                 {
-                    CurrentButton.SetActive(false);
+                    successOne = true;
+                    Debug.Log("index " + index + ", successOne " + successOne);
                     miniGameOne8.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             default:
@@ -141,57 +162,73 @@ public class TriggerOnClickCards : MonoBehaviour
             case 1:
                 if (index == 1)
                 {
-                    CurrentButton.SetActive(false);
+                    successTwo = true;
+                    Debug.Log("index " + index + ", successTwo " + successTwo);
                     miniGameTwo1.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 2:
                 if (index == 2)
                 {
-                    CurrentButton.SetActive(false);
+                    successTwo = true;
+                    Debug.Log("index " + index + ", successTwo " + successTwo);
                     miniGameTwo2.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 3:
                 if (index == 3)
                 {
-                    CurrentButton.SetActive(false);
+                    successTwo = true;
+                    Debug.Log("index " + index + ", successTwo " + successTwo);
                     miniGameTwo3.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 4:
                 if (index == 4)
                 {
-                    CurrentButton.SetActive(false);
+                    successTwo = true;
+                    Debug.Log("index " + index + ", successTwo " + successTwo);
                     miniGameTwo4.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 5:
                 if (index == 5)
                 {
-                    CurrentButton.SetActive(false);
+                    successTwo = true;
+                    Debug.Log("index " + index + ", successTwo " + successTwo);
                     miniGameTwo5.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 6:
                 if (index == 6)
                 {
-                    CurrentButton.SetActive(false);
+                    successTwo = true;
+                    Debug.Log("index " + index + ", successTwo " + successTwo);
                     miniGameTwo6.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 7:
                 if (index == 7)
                 {
-                    CurrentButton.SetActive(false);
+                    successTwo = true;
+                    Debug.Log("index " + index + ", successTwo " + successTwo);
                     miniGameTwo7.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 8:
                 if (index == 8)
                 {
-                    CurrentButton.SetActive(false);
+                    successTwo = true;
+                    Debug.Log("index " + index + ", successTwo " + successTwo);
                     miniGameTwo8.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             default:
@@ -204,57 +241,73 @@ public class TriggerOnClickCards : MonoBehaviour
             case 1:
                 if (index == 1)
                 {
-                    CurrentButton.SetActive(false);
+                    successThree = true;
+                    Debug.Log("index " + index + ", successThree " + successThree);
                     miniGameThree1.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 2:
                 if (index == 2)
                 {
-                    CurrentButton.SetActive(false);
+                    successThree = true;
+                    Debug.Log("index " + index + ", successThree " + successThree);
                     miniGameThree2.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 3:
                 if (index == 3)
                 {
-                    CurrentButton.SetActive(false);
+                    successThree = true;
+                    Debug.Log("index " + index + ", successThree " + successThree);
                     miniGameThree3.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 4:
                 if (index == 4)
                 {
-                    CurrentButton.SetActive(false);
+                    successThree = true;
+                    Debug.Log("index " + index + ", successThree " + successThree);
                     miniGameThree4.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 5:
                 if (index == 5)
                 {
-                    CurrentButton.SetActive(false);
+                    successThree = true;
+                    Debug.Log("index " + index + ", successThree " + successThree);
                     miniGameThree5.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 6:
                 if (index == 6)
                 {
-                    CurrentButton.SetActive(false);
+                    successThree = true;
+                    Debug.Log("index " + index + ", successThree " + successThree);
                     miniGameThree6.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 7:
                 if (index == 7)
                 {
-                    CurrentButton.SetActive(false);
+                    successThree = true;
+                    Debug.Log("index " + index + ", successThree " + successThree);
                     miniGameThree7.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             case 8:
                 if (index == 8)
                 {
-                    CurrentButton.SetActive(false);
+                    successThree = true;
+                    Debug.Log("index " + index + ", successThree " + successThree);
                     miniGameThree8.SetActive(false);
+                    CurrentButton.SetActive(false);
                 }
                 break;
             default:

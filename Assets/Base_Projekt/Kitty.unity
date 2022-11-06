@@ -728,8 +728,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11997168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.672, y: 0.764, z: -0.311}
-  m_LocalScale: {x: 0.1365635, y: 0.6260236, z: 0.13674352}
+  m_LocalPosition: {x: 0.672, y: 0.865, z: -0.311}
+  m_LocalScale: {x: 0.037742052, y: 0.34674194, z: 0.053917915}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1081078267}
@@ -2359,7 +2359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &39180690
 Transform:
   m_ObjectHideFlags: 0
@@ -4493,7 +4493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87490389}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.002, y: -0.0151, z: -0.0075}
+  m_LocalPosition: {x: -0.002, y: -0.0151, z: -0.0183}
   m_LocalScale: {x: 1.1585994, y: 1.1947004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4908,6 +4908,9 @@ MonoBehaviour:
   miniGameThree6: {fileID: 503234857}
   miniGameThree7: {fileID: 2083820702}
   miniGameThree8: {fileID: 1367935512}
+  successOne: 0
+  successTwo: 0
+  successThree: 0
 --- !u!1 &87548996
 GameObject:
   m_ObjectHideFlags: 0
@@ -9416,7 +9419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &157702288
 Transform:
   m_ObjectHideFlags: 0
@@ -9467,7 +9470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157834716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.001, y: 0.0053999834, z: -0.0025}
+  m_LocalPosition: {x: -0.001, y: 0.0053999834, z: -0.0183}
   m_LocalScale: {x: 1.1585994, y: 1.1947004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9882,6 +9885,9 @@ MonoBehaviour:
   miniGameThree6: {fileID: 503234857}
   miniGameThree7: {fileID: 2083820702}
   miniGameThree8: {fileID: 1367935512}
+  successOne: 0
+  successTwo: 0
+  successThree: 0
 --- !u!1 &161279793
 GameObject:
   m_ObjectHideFlags: 0
@@ -12046,7 +12052,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206529214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0054, y: 0.0053999834, z: -0.0073}
+  m_LocalPosition: {x: -0.0054, y: 0.0053999834, z: -0.0183}
   m_LocalScale: {x: 1.1585994, y: 1.1947004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12461,6 +12467,9 @@ MonoBehaviour:
   miniGameThree6: {fileID: 503234857}
   miniGameThree7: {fileID: 2083820702}
   miniGameThree8: {fileID: 1367935512}
+  successOne: 0
+  successTwo: 0
+  successThree: 0
 --- !u!1 &206887781
 GameObject:
   m_ObjectHideFlags: 0
@@ -13546,8 +13555,8 @@ MonoBehaviour:
   debounceThreshold: 0.01
   localForward: {x: 0, y: 0, z: -1}
   localUp: {x: 0, y: 1, z: 0}
-  localCenter: {x: 0.09, y: -0.067, z: 0.0145000005}
-  bounds: {x: 0.18, y: 0.134}
+  localCenter: {x: 0.09, y: -0.05, z: 0.0145}
+  bounds: {x: 0.18, y: 0.1}
   touchableCollider: {fileID: 225021566}
 --- !u!65 &225021566
 BoxCollider:
@@ -13560,8 +13569,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.09, z: 0.05}
-  m_Center: {x: 0.09, y: -0.046, z: 0}
+  m_Size: {x: 0.18, y: 0.1, z: 0.001}
+  m_Center: {x: 0.09, y: -0.05, z: 0.015}
 --- !u!114 &225021567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32576,7 +32585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595509617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0054, z: 0}
+  m_LocalPosition: {x: 0, y: 0.0054, z: -0.0183}
   m_LocalScale: {x: 1.1586, y: 1.1947, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32991,6 +33000,9 @@ MonoBehaviour:
   miniGameThree6: {fileID: 503234857}
   miniGameThree7: {fileID: 2083820702}
   miniGameThree8: {fileID: 1367935512}
+  successOne: 0
+  successTwo: 0
+  successThree: 0
 --- !u!1 &595722404
 GameObject:
   m_ObjectHideFlags: 0
@@ -43416,7 +43428,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765148567}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0001, y: -0.0133, z: -0.0001}
+  m_LocalPosition: {x: -0.0001, y: -0.0133, z: -0.0183}
   m_LocalScale: {x: 1.1585994, y: 1.1947004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43831,6 +43843,9 @@ MonoBehaviour:
   miniGameThree6: {fileID: 503234857}
   miniGameThree7: {fileID: 2083820702}
   miniGameThree8: {fileID: 1367935512}
+  successOne: 0
+  successTwo: 0
+  successThree: 0
 --- !u!1001 &769928537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70082,7 +70097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244727626}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0032, y: -0.0138, z: -0.0024}
+  m_LocalPosition: {x: -0.0032, y: -0.0138, z: -0.0183}
   m_LocalScale: {x: 1.1585994, y: 1.1947004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -70497,6 +70512,9 @@ MonoBehaviour:
   miniGameThree6: {fileID: 503234857}
   miniGameThree7: {fileID: 2083820702}
   miniGameThree8: {fileID: 1367935512}
+  successOne: 0
+  successTwo: 0
+  successThree: 0
 --- !u!1001 &1249245106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72738,7 +72756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299438028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0009, y: -0.0144, z: -0.0051}
+  m_LocalPosition: {x: 0.0009, y: -0.0144, z: -0.0183}
   m_LocalScale: {x: 1.1585994, y: 1.1947004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -73153,6 +73171,9 @@ MonoBehaviour:
   miniGameThree6: {fileID: 503234857}
   miniGameThree7: {fileID: 2083820702}
   miniGameThree8: {fileID: 1367935512}
+  successOne: 0
+  successTwo: 0
+  successThree: 0
 --- !u!1 &1299644940
 GameObject:
   m_ObjectHideFlags: 0
@@ -82897,7 +82918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1478596128
 Transform:
   m_ObjectHideFlags: 0
@@ -89435,7 +89456,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625154397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0037, y: 0.0053999834, z: -0.0049}
+  m_LocalPosition: {x: -0.0037, y: 0.0053999834, z: -0.0183}
   m_LocalScale: {x: 1.1585994, y: 1.1947004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -89850,6 +89871,9 @@ MonoBehaviour:
   miniGameThree6: {fileID: 503234857}
   miniGameThree7: {fileID: 2083820702}
   miniGameThree8: {fileID: 1367935512}
+  successOne: 0
+  successTwo: 0
+  successThree: 0
 --- !u!1 &1625533304
 GameObject:
   m_ObjectHideFlags: 0
@@ -91433,8 +91457,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652046892}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09, y: -0.067, z: 0}
-  m_LocalScale: {x: 0.18, y: 0.134, z: 0.028}
+  m_LocalPosition: {x: 0.09, y: -0.053, z: 0}
+  m_LocalScale: {x: 0.18, y: 0.09950984, z: 0.028}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 225021564}
@@ -91460,7 +91484,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652046892}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75fa637a68e599040bdd08afc22b3bfa, type: 3}
   m_Name: 
@@ -93310,13 +93334,14 @@ GameObject:
   - component: {fileID: 1702415938}
   - component: {fileID: 1702415937}
   - component: {fileID: 1702415939}
+  - component: {fileID: 1702415940}
   m_Layer: 0
   m_Name: No2-Task-Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1702415935
 Transform:
   m_ObjectHideFlags: 0
@@ -93445,6 +93470,28 @@ MonoBehaviour:
   randomNumberOne: 0
   randomNumberTwo: 0
   randomNumberThree: 0
+--- !u!114 &1702415940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702415934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21fe1982c2a36d441974c92aed252164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerOnClickCardsScriptIcosa: {fileID: 595509625}
+  TriggerOnClickCardsScriptCheese: {fileID: 157834724}
+  TriggerOnClickCardsScriptBucky: {fileID: 1625154405}
+  TriggerOnClickCardsScriptIcosa1: {fileID: 206529222}
+  TriggerOnClickCardsScriptCup: {fileID: 765148575}
+  TriggerOnClickCardsScriptBucky1: {fileID: 1244727634}
+  TriggerOnClickCardsScriptTree: {fileID: 1299438036}
+  TriggerOnClickCardsScriptBallon: {fileID: 87490397}
+  flowerTask: {fileID: 1702415934}
+  flower: {fileID: 11997168}
 --- !u!1 &1703490239
 GameObject:
   m_ObjectHideFlags: 0
@@ -102722,7 +102769,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1876575731
 Transform:
   m_ObjectHideFlags: 0
@@ -115113,18 +115160,6 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11997168}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1702415934}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
