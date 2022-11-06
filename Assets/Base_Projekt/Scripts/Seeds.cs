@@ -6,47 +6,48 @@ using TMPro;
 
 public class Seeds : MonoBehaviour
 {
-    // public Button seedCollect;
     public TMP_Text seedText;
     public int seed = 0;
-
-    void Start()
-    {
-        /*
-        seedCollect.onClick.AddListener(delegate
-        {
-            seed = seed + 1;
-        });
-        */
-    }
+    public GameObject FirstBox;
+    public GameObject SecondBox;
+    public GameObject ThirdBox;
+    public GameObject FourthBox;
+    public GameObject FifthBox;
+    public GameObject PlantOne;
+    public GameObject PlantTwo;
+    public GameObject PlantThree;
+    public GameObject PlantFour;
+    public GameObject PlantFive;
 
     void Update()
     {
         seedText.text = "Samenanzahl: " + seed.ToString();
+
+        if (seed < 1)
+        {
+            FirstBox.SetActive(false);
+            SecondBox.SetActive(false);
+            ThirdBox.SetActive(false);
+            FourthBox.SetActive(false);
+            FifthBox.SetActive(false);
+        }
+        else
+        {
+            FirstBox.SetActive(true);
+            SecondBox.SetActive(true);
+            ThirdBox.SetActive(true);
+            FourthBox.SetActive(true);
+            FifthBox.SetActive(true);
+        }
     }
 
-    public void FirstCat()
+    public void GetSeed()
     {
         seed = seed + 1;
     }
 
-    public void SecondCat()
+    public void Plant()
     {
-        seed = seed + 1;
-    }
-
-    public void ThirdCat()
-    {
-        seed = seed + 1;
-    }
-
-    public void FourthCat()
-    {
-        seed = seed + 1;
-    }
-
-    public void FifthCat()
-    {
-        seed = seed + 1;
+        seed = seed - 1;
     }
 }

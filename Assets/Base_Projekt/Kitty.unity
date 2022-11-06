@@ -2613,10 +2613,34 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1153935305}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 743103103}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1518710991}
+        m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
+        m_MethodName: Plant
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -18859,7 +18883,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1518710991}
         m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
-        m_MethodName: FifthCat
+        m_MethodName: GetSeed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -56828,7 +56852,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1518710991}
         m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
-        m_MethodName: ThirdCat
+        m_MethodName: GetSeed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -58350,7 +58374,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1518710991}
         m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
-        m_MethodName: FourthCat
+        m_MethodName: GetSeed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -64115,7 +64139,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073069714}
   m_LocalRotation: {x: -0, y: 0.70490116, z: -0, w: 0.7093055}
-  m_LocalPosition: {x: -5.64, y: -0.61947197, z: 0.92}
+  m_LocalPosition: {x: -5.232, y: -0.47, z: 0.923}
   m_LocalScale: {x: 10, y: 19, z: 17.680004}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -64218,7 +64242,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1518710991}
         m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
-        m_MethodName: SecondCat
+        m_MethodName: GetSeed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -65863,6 +65887,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1518710991}
+        m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
+        m_MethodName: Plant
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -88150,6 +88186,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seedText: {fileID: 1837006507}
   seed: 0
+  FirstBox: {fileID: 1084123012}
+  SecondBox: {fileID: 1081078266}
+  ThirdBox: {fileID: 1580489679}
+  FourthBox: {fileID: 1438023772}
+  FifthBox: {fileID: 821761977}
 --- !u!1 &1518891846
 GameObject:
   m_ObjectHideFlags: 0
@@ -108592,6 +108633,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1518710991}
+        m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
+        m_MethodName: Plant
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   Events:
   - Event:
       m_PersistentCalls:
@@ -113213,7 +113266,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1518710991}
         m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
-        m_MethodName: FirstCat
+        m_MethodName: GetSeed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -118493,6 +118546,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1518710991}
+        m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
+        m_MethodName: Plant
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   Events:
   - Event:
       m_PersistentCalls:
@@ -121169,9 +121234,33 @@ MonoBehaviour:
   OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 11997168}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1702415934}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 1518710991}
         m_TargetAssemblyTypeName: Seeds, Assembly-CSharp
-        m_MethodName: GetSeeds
+        m_MethodName: Plant
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
