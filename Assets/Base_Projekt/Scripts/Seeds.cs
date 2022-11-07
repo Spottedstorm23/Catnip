@@ -16,7 +16,7 @@ public class Seeds : MonoBehaviour
 
     void Update()
     {
-        seedText.text = "Samenanzahl: " + seed.ToString();
+        seedText.text = seed.ToString();
 
         if (seed < 1)
         {
