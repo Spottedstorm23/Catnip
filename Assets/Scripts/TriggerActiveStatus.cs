@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class TriggerActiveStatus : MonoBehaviour
 {
-    public GameObject taskWindow;
+    public GameObject TaskWindow;
 
     public GameObject OneObjOne; // türkises Polygon
     public GameObject OneObjTwo; // Käse
@@ -32,40 +32,38 @@ public class TriggerActiveStatus : MonoBehaviour
     public GameObject ThreeObjSeven; // Baum
     public GameObject ThreeObjEight; // Ballon
 
-    public int randomNumberOne;
-    public int randomNumberTwo;
-    public int randomNumberThree;
+    public int RandomNumberOne;
+    public int RandomNumberTwo;
+    public int RandomNumberThree;
 
     private void OnEnable()
     {
-        Debug.Log("StartMiniGame()");
         StartMiniGame();
     }
 
     public void StartMiniGame()
     {
-        Debug.Log("SetTask()");
         SetTask();
         // add timer here
     }
     
     private void SetTask()
     {
-        randomNumberOne = Random.Range(1, 8);
+        RandomNumberOne = Random.Range(1, 8);
 
-        randomNumberTwo = Random.Range(1, 8);
-        while (randomNumberTwo == randomNumberOne)
+        RandomNumberTwo = Random.Range(1, 8);
+        while (RandomNumberTwo == RandomNumberOne)
         {
-            randomNumberTwo = Random.Range(1, 8);
+            RandomNumberTwo = Random.Range(1, 8);
         }
 
-        randomNumberThree = Random.Range(1, 8);
-        while (randomNumberThree == randomNumberOne | randomNumberThree == randomNumberTwo)
+        RandomNumberThree = Random.Range(1, 8);
+        while (RandomNumberThree == RandomNumberOne | RandomNumberThree == RandomNumberTwo)
         {
-            randomNumberThree = Random.Range(1, 8);
+            RandomNumberThree = Random.Range(1, 8);
         }
 
-        switch (randomNumberOne)
+        switch (RandomNumberOne)
         {
             // row 0
             case 1: // türkis Polygon
@@ -95,11 +93,11 @@ public class TriggerActiveStatus : MonoBehaviour
                 OneObjEight.SetActive(true);
                 break;
             default:
-                Debug.Log("randomNumberOne: " + randomNumberOne);
+                Debug.Log("randomNumberOne: " + RandomNumberOne);
                 break;
         }
         
-        switch (randomNumberTwo)
+        switch (RandomNumberTwo)
         {
             // row 0
             case 1: // türkis Polygon
@@ -129,11 +127,11 @@ public class TriggerActiveStatus : MonoBehaviour
                 TwoObjEight.SetActive(true);
                 break;
             default:
-                Debug.Log("randomNumberTwo: " + randomNumberTwo);
+                Debug.Log("randomNumberTwo: " + RandomNumberTwo);
                 break;
         }
 
-        switch (randomNumberThree)
+        switch (RandomNumberThree)
         {
             // row 0
             case 1: // türkis Polygon
@@ -163,13 +161,13 @@ public class TriggerActiveStatus : MonoBehaviour
                 ThreeObjEight.SetActive(true);
                 break;
             default:
-                Debug.Log("randomNumberThree: " + randomNumberThree);
+                Debug.Log("randomNumberThree: " + RandomNumberThree);
                 break;
         }
 
         Debug.Log("random Numbers:"+
-            " one:" + randomNumberOne +
-            " | two: " + randomNumberTwo +
-            " | three: " + randomNumberThree);
+            " one:" + RandomNumberOne +
+            " | two: " + RandomNumberTwo +
+            " | three: " + RandomNumberThree);
     }
 }

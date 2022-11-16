@@ -71,9 +71,9 @@ public class TriggerOnClickCards : MonoBehaviour
 
     private void SetVars()
     {
-        randomNumberOneScript = triggerActiveStatusScript.randomNumberOne;
-        randomNumberTwoScript = triggerActiveStatusScript.randomNumberTwo;
-        randomNumberThreeScript = triggerActiveStatusScript.randomNumberThree;
+        randomNumberOneScript = triggerActiveStatusScript.RandomNumberOne;
+        randomNumberTwoScript = triggerActiveStatusScript.RandomNumberTwo;
+        randomNumberThreeScript = triggerActiveStatusScript.RandomNumberThree;
     }
 
     private void CheckForRightSymbol()
