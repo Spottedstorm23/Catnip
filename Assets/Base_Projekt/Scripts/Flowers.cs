@@ -9,11 +9,12 @@ public class Flowers : MonoBehaviour
 {
     public TMP_Text flowerText;
     public int flower = 0;
-    public GameObject WinText;
+    public GameObject WinWindow;
 
     void Update()
     {
         flowerText.text = flower.ToString();
+        GameWon();
     }
 
     public void GetFlower()
@@ -23,9 +24,9 @@ public class Flowers : MonoBehaviour
 
     public void GameWon()
     {
-        if (flower >= 10)
+        if (flower == 10)
         {
-            WinText.SetActive(true);
+            WinWindow.SetActive(true);
         }
 
     }
