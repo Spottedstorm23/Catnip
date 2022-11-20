@@ -2440,7 +2440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &68785008
 Transform:
   m_ObjectHideFlags: 0
@@ -4847,7 +4847,6 @@ GameObject:
   m_Component:
   - component: {fileID: 123575140}
   - component: {fileID: 123575143}
-  - component: {fileID: 123575142}
   - component: {fileID: 123575141}
   m_Layer: 0
   m_Name: TextMeshPro
@@ -4969,14 +4968,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 123575143}
   m_maskType: 0
---- !u!222 &123575142
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123575139}
-  m_CullTransparentMesh: 0
 --- !u!23 &123575143
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12528,7 +12519,6 @@ GameObject:
   m_Component:
   - component: {fileID: 333243992}
   - component: {fileID: 333243995}
-  - component: {fileID: 333243994}
   - component: {fileID: 333243993}
   m_Layer: 0
   m_Name: Heading
@@ -12650,14 +12640,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 333243995}
   m_maskType: 0
---- !u!222 &333243994
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333243991}
-  m_CullTransparentMesh: 0
 --- !u!23 &333243995
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13697,7 +13679,6 @@ GameObject:
   m_Component:
   - component: {fileID: 372027384}
   - component: {fileID: 372027387}
-  - component: {fileID: 372027386}
   - component: {fileID: 372027385}
   m_Layer: 0
   m_Name: Body
@@ -13820,14 +13801,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 372027387}
   m_maskType: 0
---- !u!222 &372027386
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372027383}
-  m_CullTransparentMesh: 0
 --- !u!23 &372027387
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30326,7 +30299,6 @@ GameObject:
   m_Component:
   - component: {fileID: 732204645}
   - component: {fileID: 732204648}
-  - component: {fileID: 732204647}
   - component: {fileID: 732204646}
   m_Layer: 0
   m_Name: Title
@@ -30448,14 +30420,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 732204648}
   m_maskType: 0
---- !u!222 &732204647
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732204644}
-  m_CullTransparentMesh: 0
 --- !u!23 &732204648
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33067,7 +33031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &806218623
 Transform:
   m_ObjectHideFlags: 0
@@ -55272,7 +55236,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1314003527}
   - component: {fileID: 1314003530}
-  - component: {fileID: 1314003529}
   - component: {fileID: 1314003528}
   m_Layer: 0
   m_Name: TextMeshPro
@@ -55394,14 +55357,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1314003530}
   m_maskType: 0
---- !u!222 &1314003529
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314003526}
-  m_CullTransparentMesh: 0
 --- !u!23 &1314003530
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -72830,7 +72785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1720030535
 Transform:
   m_ObjectHideFlags: 0
@@ -73421,8 +73376,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735167065}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.89, y: 0.902, z: -0.495}
-  m_LocalScale: {x: 41.611736, y: 82.8507, z: 25.545649}
+  m_LocalPosition: {x: -3.73, y: 0.902, z: -0.495}
+  m_LocalScale: {x: 41.611736, y: 82.8507, z: 32.907906}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 618853275}
@@ -73446,7 +73401,7 @@ MonoBehaviour:
   interactable: {fileID: 1735167069}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
