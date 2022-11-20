@@ -9,6 +9,7 @@ public class Flowers : MonoBehaviour
 {
     public TMP_Text flowerText;
     public int flower = 0;
+    public GameObject WinText;
 
     void Update()
     {
@@ -18,5 +19,14 @@ public class Flowers : MonoBehaviour
     public void GetFlower()
     {
         flower = flower + 1;
+    }
+
+    public void GameWon()
+    {
+        if (flower >= 10)
+        {
+            WinText.SetActive(true);
+        }
+
     }
 }
