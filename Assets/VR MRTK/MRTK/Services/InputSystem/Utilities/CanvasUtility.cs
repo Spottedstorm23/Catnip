@@ -58,7 +58,7 @@ namespace Microsoft.MixedReality.Toolkit.Input.Utilities
             }
             else
             {
-                Debug.LogError("World Space Canvas should have no camera set to work properly with Mixed Reality Toolkit. At runtime, they'll get their camera set automatically.");
+                // Debug.LogError("World Space Canvas should have no camera set to work properly with Mixed Reality Toolkit. At runtime, they'll get their camera set automatically.");
             }
         }
     }

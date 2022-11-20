@@ -312,7 +312,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6786005}
   - component: {fileID: 6786008}
-  - component: {fileID: 6786007}
   - component: {fileID: 6786006}
   m_Layer: 0
   m_Name: Heading
@@ -434,14 +433,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 6786008}
   m_maskType: 0
---- !u!222 &6786007
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6786004}
-  m_CullTransparentMesh: 0
 --- !u!23 &6786008
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2481,9 +2472,9 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.3
+  minDistance: 0.9
   maxDistance: 0.9
-  defaultDistance: 0.7
+  defaultDistance: 0.9
   maxViewHorizontalDegrees: 30
   maxViewVerticalDegrees: 20
   reorientWhenOutsideParameters: 1
@@ -2571,7 +2562,6 @@ GameObject:
   m_Component:
   - component: {fileID: 72105735}
   - component: {fileID: 72105738}
-  - component: {fileID: 72105737}
   - component: {fileID: 72105736}
   m_Layer: 0
   m_Name: Title
@@ -2693,14 +2683,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 72105738}
   m_maskType: 0
---- !u!222 &72105737
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 72105734}
-  m_CullTransparentMesh: 0
 --- !u!23 &72105738
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9212,7 +9194,7 @@ MonoBehaviour:
   interactable: {fileID: 206529218}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -11166,7 +11148,6 @@ GameObject:
   m_Component:
   - component: {fileID: 269644887}
   - component: {fileID: 269644890}
-  - component: {fileID: 269644889}
   - component: {fileID: 269644888}
   m_Layer: 0
   m_Name: Body
@@ -11289,14 +11270,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 269644890}
   m_maskType: 0
---- !u!222 &269644889
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269644886}
-  m_CullTransparentMesh: 0
 --- !u!23 &269644890
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17263,9 +17236,9 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.3
-  maxDistance: 0.9
-  defaultDistance: 0.7
+  minDistance: 1.1
+  maxDistance: 1.1
+  defaultDistance: 1.1
   maxViewHorizontalDegrees: 30
   maxViewVerticalDegrees: 20
   reorientWhenOutsideParameters: 1
@@ -24212,7 +24185,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Du befindest dich hier in denem Shop.\nZusammen mit deinen vierbeinigen
+  m_text: "Du befindest dich hier in deinem Shop.\nZusammen mit deinen vierbeinigen
     Freunden, ist es dein Ziel, durch das Einpflanzen von Samen Blumen wachsen zu
     lassen.\nDu brauchst dich nicht zu bewegen. Alles ist erreichbar.\n\nSammel Samen,
     indem du mit dem Controller mit einer Katze interagierst. Diese kommen direkt
@@ -45144,7 +45117,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1118288324}
   - component: {fileID: 1118288327}
-  - component: {fileID: 1118288326}
   - component: {fileID: 1118288325}
   m_Layer: 0
   m_Name: Title
@@ -45266,14 +45238,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1118288327}
   m_maskType: 0
---- !u!222 &1118288326
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118288323}
-  m_CullTransparentMesh: 0
 --- !u!23 &1118288327
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51011,7 +50975,7 @@ MonoBehaviour:
   interactable: {fileID: 1246651583}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -55069,13 +55033,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310384862}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.3430004, y: -1.22, z: 2.055}
+  m_LocalPosition: {x: 1.3430004, y: 0.07, z: 2.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1505457970}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -6.916, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1310563255
 GameObject:
   m_ObjectHideFlags: 0
@@ -56509,6 +56473,8 @@ GameObject:
   - component: {fileID: 1343304480}
   - component: {fileID: 1343304484}
   - component: {fileID: 1343304485}
+  - component: {fileID: 1343304486}
+  - component: {fileID: 1343304487}
   m_Layer: 5
   m_Name: Inventar
   m_TagString: Untagged
@@ -56565,9 +56531,9 @@ Canvas:
   m_GameObject: {fileID: 1343304478}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 1310384868}
+  m_PlaneDistance: 2
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -56636,6 +56602,32 @@ MonoBehaviour:
   flowerText: {fileID: 1361669259}
   flower: 0
   WinWindow: {fileID: 2142950187}
+--- !u!114 &1343304486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343304478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4e3b9019304b5aaec5664de0778d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1343304487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343304478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fcaf896491074042b7ed7684454a412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventsToReceive: 0
+  debounceThreshold: 0.01
 --- !u!1001 &1343522157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62644,9 +62636,9 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.3
-  maxDistance: 0.9
-  defaultDistance: 0.7
+  minDistance: 1.1
+  maxDistance: 1.1
+  defaultDistance: 1.1
   maxViewHorizontalDegrees: 30
   maxViewVerticalDegrees: 20
   reorientWhenOutsideParameters: 1
@@ -63264,8 +63256,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491719406}
   m_LocalRotation: {x: -0, y: 0.70490116, z: -0, w: 0.7093055}
-  m_LocalPosition: {x: -5.4, y: -0.6194839, z: 0.88}
-  m_LocalScale: {x: 20, y: 20, z: 60}
+  m_LocalPosition: {x: -5.09, y: -0.6194839, z: 0.98}
+  m_LocalScale: {x: 28.283998, y: 20, z: 73.854004}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1810357305}
@@ -63882,7 +63874,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505457969}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 2.055, y: 1.22, z: -1.343}
+  m_LocalPosition: {x: 2.09, y: -0.07, z: -1.343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -64846,7 +64838,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1515153250}
   - component: {fileID: 1515153253}
-  - component: {fileID: 1515153252}
   - component: {fileID: 1515153251}
   m_Layer: 0
   m_Name: Title
@@ -64968,14 +64959,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1515153253}
   m_maskType: 0
---- !u!222 &1515153252
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515153249}
-  m_CullTransparentMesh: 0
 --- !u!23 &1515153253
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -71567,9 +71550,9 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.3
-  maxDistance: 0.9
-  defaultDistance: 0.7
+  minDistance: 1.1
+  maxDistance: 1.1
+  defaultDistance: 1.1
   maxViewHorizontalDegrees: 30
   maxViewVerticalDegrees: 20
   reorientWhenOutsideParameters: 1
@@ -72687,9 +72670,9 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.3
-  maxDistance: 0.9
-  defaultDistance: 0.7
+  minDistance: 1.1
+  maxDistance: 1.1
+  defaultDistance: 1.1
   maxViewHorizontalDegrees: 30
   maxViewVerticalDegrees: 20
   reorientWhenOutsideParameters: 1
@@ -72826,8 +72809,8 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.3
-  maxDistance: 0.9
+  minDistance: 0.7
+  maxDistance: 0.7
   defaultDistance: 0.7
   maxViewHorizontalDegrees: 30
   maxViewVerticalDegrees: 20
@@ -73376,8 +73359,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735167065}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.73, y: 0.902, z: -0.495}
-  m_LocalScale: {x: 41.611736, y: 82.8507, z: 32.907906}
+  m_LocalPosition: {x: -3.4, y: 0.902, z: -0.495}
+  m_LocalScale: {x: 41.611736, y: 82.8507, z: 81.14432}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 618853275}
@@ -77927,9 +77910,9 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.3
-  maxDistance: 0.9
-  defaultDistance: 0.7
+  minDistance: 1.1
+  maxDistance: 1.1
+  defaultDistance: 1.1
   maxViewHorizontalDegrees: 30
   maxViewVerticalDegrees: 20
   reorientWhenOutsideParameters: 1
