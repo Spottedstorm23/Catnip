@@ -36,9 +36,13 @@ public class TriggerActiveStatus : MonoBehaviour
     public int RandomNumberTwo;
     public int RandomNumberThree;
 
+    public Timer Timer;
+
     private void OnEnable()
     {
         StartMiniGame();
+        Timer.CountDown = Timer.MaxTime;
+        Timer.TimerIsRunning = true;
     }
 
     public void StartMiniGame()

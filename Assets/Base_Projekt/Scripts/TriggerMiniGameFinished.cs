@@ -13,9 +13,9 @@ public class TriggerMiniGameFinished : MonoBehaviour
     public TriggerOnClickCards TriggerOnClickCardsScriptTree;
     public TriggerOnClickCards TriggerOnClickCardsScriptBallon;
 
-    private bool successOneScript;
-    private bool successTwoScript;
-    private bool successThreeScript;
+    public bool successOneScript;
+    public bool successTwoScript;
+    public bool successThreeScript;
 
     [SerializeField] GameObject flowerTask;
     [SerializeField] GameObject flower;
@@ -134,36 +134,41 @@ public class TriggerMiniGameFinished : MonoBehaviour
             flower.SetActive(true);
             flowerTask.SetActive(false);
 
-            successOneScript = false;
-            successTwoScript = false;
-            successThreeScript = false;
-
-            TriggerOnClickCardsScriptIcosa.successOne = false;
-            TriggerOnClickCardsScriptCheese.successOne = false;
-            TriggerOnClickCardsScriptBucky.successOne = false;
-            TriggerOnClickCardsScriptIcosa1.successOne = false;
-            TriggerOnClickCardsScriptCup.successOne = false;
-            TriggerOnClickCardsScriptBucky1.successOne = false;
-            TriggerOnClickCardsScriptTree.successOne = false;
-            TriggerOnClickCardsScriptBallon.successOne = false;
-
-            TriggerOnClickCardsScriptIcosa.successTwo = false;
-            TriggerOnClickCardsScriptCheese.successTwo = false;
-            TriggerOnClickCardsScriptBucky.successTwo = false;
-            TriggerOnClickCardsScriptIcosa1.successTwo = false;
-            TriggerOnClickCardsScriptCup.successTwo = false;
-            TriggerOnClickCardsScriptBucky1.successTwo = false;
-            TriggerOnClickCardsScriptTree.successTwo = false;
-            TriggerOnClickCardsScriptBallon.successTwo = false;
-            TriggerOnClickCardsScriptIcosa.successThree = false;
-            TriggerOnClickCardsScriptCheese.successThree = false;
-            TriggerOnClickCardsScriptBucky.successThree = false;
-            TriggerOnClickCardsScriptIcosa1.successThree = false;
-            TriggerOnClickCardsScriptCup.successThree = false;
-            TriggerOnClickCardsScriptBucky1.successThree = false;
-            TriggerOnClickCardsScriptTree.successThree = false;
-            TriggerOnClickCardsScriptBallon.successThree = false;
-
+            ResetSuccess();
         }
+    }
+
+    public void ResetSuccess()
+    {
+        successOneScript = false;
+        successTwoScript = false;
+        successThreeScript = false;
+
+        TriggerOnClickCardsScriptIcosa.successOne = false;
+        TriggerOnClickCardsScriptCheese.successOne = false;
+        TriggerOnClickCardsScriptBucky.successOne = false;
+        TriggerOnClickCardsScriptIcosa1.successOne = false;
+        TriggerOnClickCardsScriptCup.successOne = false;
+        TriggerOnClickCardsScriptBucky1.successOne = false;
+        TriggerOnClickCardsScriptTree.successOne = false;
+        TriggerOnClickCardsScriptBallon.successOne = false;
+
+        TriggerOnClickCardsScriptIcosa.successTwo = false;
+        TriggerOnClickCardsScriptCheese.successTwo = false;
+        TriggerOnClickCardsScriptBucky.successTwo = false;
+        TriggerOnClickCardsScriptIcosa1.successTwo = false;
+        TriggerOnClickCardsScriptCup.successTwo = false;
+        TriggerOnClickCardsScriptBucky1.successTwo = false;
+        TriggerOnClickCardsScriptTree.successTwo = false;
+        TriggerOnClickCardsScriptBallon.successTwo = false;
+
+        TriggerOnClickCardsScriptIcosa.successThree = false;
+        TriggerOnClickCardsScriptCheese.successThree = false;
+        TriggerOnClickCardsScriptBucky.successThree = false;
+        TriggerOnClickCardsScriptIcosa1.successThree = false;
+        TriggerOnClickCardsScriptCup.successThree = false;
+        TriggerOnClickCardsScriptBucky1.successThree = false;
+        TriggerOnClickCardsScriptTree.successThree = false;
+        TriggerOnClickCardsScriptBallon.successThree = false;
     }
 }
