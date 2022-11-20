@@ -3274,7 +3274,7 @@ MonoBehaviour:
   interactable: {fileID: 87490393}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -4181,7 +4181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_RootOrder
@@ -6315,7 +6315,7 @@ MonoBehaviour:
   interactable: {fileID: 157834720}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -6796,7 +6796,7 @@ MonoBehaviour:
   interactable: {fileID: 158406409}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -7803,7 +7803,7 @@ MonoBehaviour:
   interactable: {fileID: 171239996}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -8456,7 +8456,6 @@ GameObject:
   m_Component:
   - component: {fileID: 182720402}
   - component: {fileID: 182720405}
-  - component: {fileID: 182720404}
   - component: {fileID: 182720403}
   m_Layer: 0
   m_Name: Title
@@ -8578,14 +8577,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 182720405}
   m_maskType: 0
---- !u!222 &182720404
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182720401}
-  m_CullTransparentMesh: 0
 --- !u!23 &182720405
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9717,7 +9708,7 @@ MonoBehaviour:
   interactable: {fileID: 213573041}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -11374,7 +11365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_RootOrder
@@ -13968,7 +13959,7 @@ MonoBehaviour:
   interactable: {fileID: 374142952}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -14575,7 +14566,7 @@ MonoBehaviour:
   interactable: {fileID: 378291963}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -16029,7 +16020,6 @@ GameObject:
   m_Component:
   - component: {fileID: 405522812}
   - component: {fileID: 405522815}
-  - component: {fileID: 405522814}
   - component: {fileID: 405522813}
   m_Layer: 0
   m_Name: Heading
@@ -16151,14 +16141,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 405522815}
   m_maskType: 0
---- !u!222 &405522814
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405522811}
-  m_CullTransparentMesh: 0
 --- !u!23 &405522815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16794,7 +16776,7 @@ MonoBehaviour:
   interactable: {fileID: 414470767}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -17476,7 +17458,7 @@ MonoBehaviour:
   interactable: {fileID: 426098493}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -18994,7 +18976,7 @@ MonoBehaviour:
   interactable: {fileID: 448876167}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -20377,7 +20359,7 @@ MonoBehaviour:
   interactable: {fileID: 482684784}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -22991,7 +22973,7 @@ MonoBehaviour:
   interactable: {fileID: 558595401}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -24209,7 +24191,6 @@ GameObject:
   m_Component:
   - component: {fileID: 587278945}
   - component: {fileID: 587278948}
-  - component: {fileID: 587278947}
   - component: {fileID: 587278946}
   m_Layer: 0
   m_Name: Body
@@ -24341,14 +24322,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 587278948}
   m_maskType: 0
---- !u!222 &587278947
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587278944}
-  m_CullTransparentMesh: 0
 --- !u!23 &587278948
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25003,7 +24976,7 @@ MonoBehaviour:
   interactable: {fileID: 595509621}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -27377,7 +27350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_RootOrder
@@ -31420,7 +31393,7 @@ MonoBehaviour:
   interactable: {fileID: 765148571}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -34545,7 +34518,7 @@ MonoBehaviour:
   interactable: {fileID: 859513179}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -35780,7 +35753,7 @@ MonoBehaviour:
   interactable: {fileID: 893091105}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -41218,7 +41191,7 @@ MonoBehaviour:
   interactable: {fileID: 1035121598}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -41989,7 +41962,7 @@ MonoBehaviour:
   interactable: {fileID: 1048437139}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -43279,7 +43252,7 @@ MonoBehaviour:
   interactable: {fileID: 1083032267}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -43839,7 +43812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_RootOrder
@@ -45537,7 +45510,7 @@ MonoBehaviour:
   interactable: {fileID: 1119305805}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -46713,7 +46686,7 @@ MonoBehaviour:
   interactable: {fileID: 1153371150}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -47967,7 +47940,7 @@ MonoBehaviour:
   interactable: {fileID: 1180604193}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -48450,7 +48423,7 @@ MonoBehaviour:
   interactable: {fileID: 1184238645}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -49754,7 +49727,7 @@ MonoBehaviour:
   interactable: {fileID: 1215881210}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -50593,7 +50566,7 @@ MonoBehaviour:
   interactable: {fileID: 1244727630}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -52495,7 +52468,7 @@ MonoBehaviour:
   interactable: {fileID: 1280390797}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -53682,7 +53655,7 @@ MonoBehaviour:
   interactable: {fileID: 1299438032}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -55132,13 +55105,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310384862}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.3430004, y: 0, z: 2.055}
+  m_LocalPosition: {x: 1.3430004, y: -1.22, z: 2.055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1505457970}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -6.916, z: 0}
 --- !u!1 &1310563255
 GameObject:
   m_ObjectHideFlags: 0
@@ -56208,7 +56181,7 @@ MonoBehaviour:
   interactable: {fileID: 1337540305}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -58194,7 +58167,7 @@ MonoBehaviour:
   interactable: {fileID: 1382725275}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -61033,7 +61006,7 @@ MonoBehaviour:
   interactable: {fileID: 1443917324}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -63954,7 +63927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505457969}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 2.055, y: 0, z: -1.343}
+  m_LocalPosition: {x: 2.055, y: 1.22, z: -1.343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -64155,7 +64128,7 @@ MonoBehaviour:
   interactable: {fileID: 1508525614}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -68798,7 +68771,7 @@ MonoBehaviour:
   interactable: {fileID: 1625154401}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -69279,7 +69252,7 @@ MonoBehaviour:
   interactable: {fileID: 1629285598}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -72231,7 +72204,7 @@ MonoBehaviour:
   interactable: {fileID: 1710592764}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -73979,7 +73952,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1740296839}
   - component: {fileID: 1740296842}
-  - component: {fileID: 1740296841}
   - component: {fileID: 1740296840}
   m_Layer: 0
   m_Name: Title
@@ -74101,14 +74073,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1740296842}
   m_maskType: 0
---- !u!222 &1740296841
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1740296838}
-  m_CullTransparentMesh: 0
 --- !u!23 &1740296842
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -76238,7 +76202,7 @@ MonoBehaviour:
   interactable: {fileID: 1809444030}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -76748,7 +76712,7 @@ MonoBehaviour:
   interactable: {fileID: 1815828420}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -78073,7 +78037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: bb88669a3463b36438d9225a3ecd3a35, type: 3}
       propertyPath: m_RootOrder
@@ -80054,7 +80018,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1895499428}
   - component: {fileID: 1895499431}
-  - component: {fileID: 1895499430}
   - component: {fileID: 1895499429}
   m_Layer: 0
   m_Name: Title
@@ -80176,14 +80139,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1895499431}
   m_maskType: 0
---- !u!222 &1895499430
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895499427}
-  m_CullTransparentMesh: 0
 --- !u!23 &1895499431
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -80565,7 +80520,7 @@ MonoBehaviour:
   interactable: {fileID: 1902886857}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -81548,7 +81503,7 @@ MonoBehaviour:
   interactable: {fileID: 1908956069}
   seeItSayItLabel: {fileID: 0}
   seeItSayItLabelText: {fileID: 0}
-  iconStyle: 0
+  iconStyle: 3
   iconCharLabel: {fileID: 0}
   iconCharFont: {fileID: 0}
   iconChar: 0
@@ -82582,7 +82537,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1930756732}
   - component: {fileID: 1930756735}
-  - component: {fileID: 1930756734}
   - component: {fileID: 1930756733}
   m_Layer: 0
   m_Name: Title
@@ -82704,14 +82658,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1930756735}
   m_maskType: 0
---- !u!222 &1930756734
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930756731}
-  m_CullTransparentMesh: 0
 --- !u!23 &1930756735
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -20,10 +20,8 @@ public class TriggerMiniGameFinished : MonoBehaviour
     [SerializeField] GameObject flowerTask;
     [SerializeField] GameObject flower;
 
-    // Update is called once per frame
     void Update()
     {
-        Debug.Log("Update Flower task - triggerminigamefinished");
         if (!successOneScript)
         {
             if (TriggerOnClickCardsScriptIcosa.successOne)
@@ -135,6 +133,37 @@ public class TriggerMiniGameFinished : MonoBehaviour
         {
             flower.SetActive(true);
             flowerTask.SetActive(false);
+
+            successOneScript = false;
+            successTwoScript = false;
+            successThreeScript = false;
+
+            TriggerOnClickCardsScriptIcosa.successOne = false;
+            TriggerOnClickCardsScriptCheese.successOne = false;
+            TriggerOnClickCardsScriptBucky.successOne = false;
+            TriggerOnClickCardsScriptIcosa1.successOne = false;
+            TriggerOnClickCardsScriptCup.successOne = false;
+            TriggerOnClickCardsScriptBucky1.successOne = false;
+            TriggerOnClickCardsScriptTree.successOne = false;
+            TriggerOnClickCardsScriptBallon.successOne = false;
+
+            TriggerOnClickCardsScriptIcosa.successTwo = false;
+            TriggerOnClickCardsScriptCheese.successTwo = false;
+            TriggerOnClickCardsScriptBucky.successTwo = false;
+            TriggerOnClickCardsScriptIcosa1.successTwo = false;
+            TriggerOnClickCardsScriptCup.successTwo = false;
+            TriggerOnClickCardsScriptBucky1.successTwo = false;
+            TriggerOnClickCardsScriptTree.successTwo = false;
+            TriggerOnClickCardsScriptBallon.successTwo = false;
+            TriggerOnClickCardsScriptIcosa.successThree = false;
+            TriggerOnClickCardsScriptCheese.successThree = false;
+            TriggerOnClickCardsScriptBucky.successThree = false;
+            TriggerOnClickCardsScriptIcosa1.successThree = false;
+            TriggerOnClickCardsScriptCup.successThree = false;
+            TriggerOnClickCardsScriptBucky1.successThree = false;
+            TriggerOnClickCardsScriptTree.successThree = false;
+            TriggerOnClickCardsScriptBallon.successThree = false;
+
         }
     }
 }

@@ -10,7 +10,7 @@ public class TriggerOnClickCards : MonoBehaviour
 
     TriggerActiveStatus triggerActiveStatusScript;
 
-    [SerializeField] GameObject flowerTask; // still private, but you can see it in the editor
+    [SerializeField] GameObject flowerTask;
     [SerializeField] GameObject CurrentButton;
     public int index;
 
@@ -56,11 +56,8 @@ public class TriggerOnClickCards : MonoBehaviour
 
     private void Awake()
     {
-        
-        Debug.Log("Awake");
         triggerActiveStatusScript =
             flowerTask.GetComponent<TriggerActiveStatus>();
-           
     }
 
     public void OnClick()
@@ -78,250 +75,250 @@ public class TriggerOnClickCards : MonoBehaviour
 
     private void CheckForRightSymbol()
     {
-        switch (randomNumberOneScript)
+        if (!successOne)
         {
-            case 1:
-              if (index == 1)
-                {
-                    successOne = true;
-                    Debug.Log("index " + index + ", successOne " + successOne);
-                    miniGameOne1.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 2:
-                if (index == 2)
-                {
-                    successOne = true;
-                    Debug.Log("index " + index + ", successOne " + successOne);
-                    miniGameOne2.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 3:
-                if (index == 3)
-                {
-                    successOne = true;
-                    Debug.Log("index " + index + ", successOne " + successOne);
-                    miniGameOne3.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 4:
-                if (index == 4)
-                {
-                    successOne = true;
-                    Debug.Log("index " + index + ", successOne " + successOne);
-                    miniGameOne4.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 5:
-                if (index == 5)
-                {
-                    successOne = true;
-                    Debug.Log("index " + index + ", successOne " + successOne);
-                    miniGameOne5.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 6:
-                if (index == 6)
-                {
-                    successOne = true;
-                    Debug.Log("index " + index + ", successOne " + successOne);
-                    miniGameOne6.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 7:
-                if (index == 7)
-                {
-                    successOne = true;
-                    Debug.Log("index " + index + ", successOne " + successOne);
-                    miniGameOne7.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 8:
-                if (index == 8)
-                {
-                    successOne = true;
-                    Debug.Log("index " + index + ", successOne " + successOne);
-                    miniGameOne8.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            default:
-                Debug.Log("randomNumberOneScript: " + randomNumberOneScript + " | index: " + index);
-                break;
+            switch (randomNumberOneScript)
+            {
+                case 1:
+                    if (index == 1)
+                    {
+                        successOne = true;
+                        Debug.Log("index " + index + ", successOne " + successOne);
+                        miniGameOne1.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 2:
+                    if (index == 2)
+                    {
+                        successOne = true;
+                        Debug.Log("index " + index + ", successOne " + successOne);
+                        miniGameOne2.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 3:
+                    if (index == 3)
+                    {
+                        successOne = true;
+                        Debug.Log("index " + index + ", successOne " + successOne);
+                        miniGameOne3.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 4:
+                    if (index == 4)
+                    {
+                        successOne = true;
+                        Debug.Log("index " + index + ", successOne " + successOne);
+                        miniGameOne4.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 5:
+                    if (index == 5)
+                    {
+                        successOne = true;
+                        Debug.Log("index " + index + ", successOne " + successOne);
+                        miniGameOne5.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 6:
+                    if (index == 6)
+                    {
+                        successOne = true;
+                        Debug.Log("index " + index + ", successOne " + successOne);
+                        miniGameOne6.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 7:
+                    if (index == 7)
+                    {
+                        successOne = true;
+                        Debug.Log("index " + index + ", successOne " + successOne);
+                        miniGameOne7.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 8:
+                    if (index == 8)
+                    {
+                        successOne = true;
+                        Debug.Log("index " + index + ", successOne " + successOne);
+                        miniGameOne8.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                default:
+                    Debug.Log("randomNumberOneScript: " + randomNumberOneScript + " | index: " + index);
+                    break;
+            }
         }
 
-        switch (randomNumberTwoScript)
+        if (!successTwo)
         {
-            case 1:
-                if (index == 1)
-                {
-                    successTwo = true;
-                    Debug.Log("index " + index + ", successTwo " + successTwo);
-                    miniGameTwo1.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 2:
-                if (index == 2)
-                {
-                    successTwo = true;
-                    Debug.Log("index " + index + ", successTwo " + successTwo);
-                    miniGameTwo2.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 3:
-                if (index == 3)
-                {
-                    successTwo = true;
-                    Debug.Log("index " + index + ", successTwo " + successTwo);
-                    miniGameTwo3.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 4:
-                if (index == 4)
-                {
-                    successTwo = true;
-                    Debug.Log("index " + index + ", successTwo " + successTwo);
-                    miniGameTwo4.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 5:
-                if (index == 5)
-                {
-                    successTwo = true;
-                    Debug.Log("index " + index + ", successTwo " + successTwo);
-                    miniGameTwo5.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 6:
-                if (index == 6)
-                {
-                    successTwo = true;
-                    Debug.Log("index " + index + ", successTwo " + successTwo);
-                    miniGameTwo6.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 7:
-                if (index == 7)
-                {
-                    successTwo = true;
-                    Debug.Log("index " + index + ", successTwo " + successTwo);
-                    miniGameTwo7.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 8:
-                if (index == 8)
-                {
-                    successTwo = true;
-                    Debug.Log("index " + index + ", successTwo " + successTwo);
-                    miniGameTwo8.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            default:
-                Debug.Log("randomNumberTwoScript: " + randomNumberTwoScript+" | index: "+index);
-                break;
+            switch (randomNumberTwoScript)
+            {
+                case 1:
+                    if (index == 1)
+                    {
+                        successTwo = true;
+                        Debug.Log("index " + index + ", successTwo " + successTwo);
+                        miniGameTwo1.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 2:
+                    if (index == 2)
+                    {
+                        successTwo = true;
+                        Debug.Log("index " + index + ", successTwo " + successTwo);
+                        miniGameTwo2.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 3:
+                    if (index == 3)
+                    {
+                        successTwo = true;
+                        Debug.Log("index " + index + ", successTwo " + successTwo);
+                        miniGameTwo3.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 4:
+                    if (index == 4)
+                    {
+                        successTwo = true;
+                        Debug.Log("index " + index + ", successTwo " + successTwo);
+                        miniGameTwo4.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 5:
+                    if (index == 5)
+                    {
+                        successTwo = true;
+                        Debug.Log("index " + index + ", successTwo " + successTwo);
+                        miniGameTwo5.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 6:
+                    if (index == 6)
+                    {
+                        successTwo = true;
+                        Debug.Log("index " + index + ", successTwo " + successTwo);
+                        miniGameTwo6.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 7:
+                    if (index == 7)
+                    {
+                        successTwo = true;
+                        Debug.Log("index " + index + ", successTwo " + successTwo);
+                        miniGameTwo7.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 8:
+                    if (index == 8)
+                    {
+                        successTwo = true;
+                        Debug.Log("index " + index + ", successTwo " + successTwo);
+                        miniGameTwo8.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                default:
+                    Debug.Log("randomNumberTwoScript: " + randomNumberTwoScript + " | index: " + index);
+                    break;
+            }
         }
 
-        switch (randomNumberThreeScript)
+        if (!successThree)
         {
-            case 1:
-                if (index == 1)
-                {
-                    successThree = true;
-                    Debug.Log("index " + index + ", successThree " + successThree);
-                    miniGameThree1.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 2:
-                if (index == 2)
-                {
-                    successThree = true;
-                    Debug.Log("index " + index + ", successThree " + successThree);
-                    miniGameThree2.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 3:
-                if (index == 3)
-                {
-                    successThree = true;
-                    Debug.Log("index " + index + ", successThree " + successThree);
-                    miniGameThree3.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 4:
-                if (index == 4)
-                {
-                    successThree = true;
-                    Debug.Log("index " + index + ", successThree " + successThree);
-                    miniGameThree4.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 5:
-                if (index == 5)
-                {
-                    successThree = true;
-                    Debug.Log("index " + index + ", successThree " + successThree);
-                    miniGameThree5.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 6:
-                if (index == 6)
-                {
-                    successThree = true;
-                    Debug.Log("index " + index + ", successThree " + successThree);
-                    miniGameThree6.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 7:
-                if (index == 7)
-                {
-                    successThree = true;
-                    Debug.Log("index " + index + ", successThree " + successThree);
-                    miniGameThree7.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            case 8:
-                if (index == 8)
-                {
-                    successThree = true;
-                    Debug.Log("index " + index + ", successThree " + successThree);
-                    miniGameThree8.SetActive(false);
-                    CurrentButton.SetActive(false);
-                }
-                break;
-            default:
-                Debug.Log("randomNumberThreeScript: " + randomNumberThreeScript + " | index: " + index);
-                break;
+            switch (randomNumberThreeScript)
+            {
+                case 1:
+                    if (index == 1)
+                    {
+                        successThree = true;
+                        Debug.Log("index " + index + ", successThree " + successThree);
+                        miniGameThree1.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 2:
+                    if (index == 2)
+                    {
+                        successThree = true;
+                        Debug.Log("index " + index + ", successThree " + successThree);
+                        miniGameThree2.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 3:
+                    if (index == 3)
+                    {
+                        successThree = true;
+                        Debug.Log("index " + index + ", successThree " + successThree);
+                        miniGameThree3.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 4:
+                    if (index == 4)
+                    {
+                        successThree = true;
+                        Debug.Log("index " + index + ", successThree " + successThree);
+                        miniGameThree4.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 5:
+                    if (index == 5)
+                    {
+                        successThree = true;
+                        Debug.Log("index " + index + ", successThree " + successThree);
+                        miniGameThree5.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 6:
+                    if (index == 6)
+                    {
+                        successThree = true;
+                        Debug.Log("index " + index + ", successThree " + successThree);
+                        miniGameThree6.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 7:
+                    if (index == 7)
+                    {
+                        successThree = true;
+                        Debug.Log("index " + index + ", successThree " + successThree);
+                        miniGameThree7.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                case 8:
+                    if (index == 8)
+                    {
+                        successThree = true;
+                        Debug.Log("index " + index + ", successThree " + successThree);
+                        miniGameThree8.SetActive(false);
+                        // CurrentButton.SetActive(false);
+                    }
+                    break;
+                default:
+                    Debug.Log("randomNumberThreeScript: " + randomNumberThreeScript + " | index: " + index);
+                    break;
+            }
         }
-
-        /*
-        if (index == randomNumberOneScript | index == randomNumberTwoScript | index == randomNumberThreeScript)
-        {
-            CurrentButton.SetActive(false);
-            // hier das mini game symbol noch deaktivieren
-        }
-        */
-
     }
 }

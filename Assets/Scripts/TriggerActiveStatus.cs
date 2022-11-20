@@ -49,18 +49,18 @@ public class TriggerActiveStatus : MonoBehaviour
     
     private void SetTask()
     {
-        RandomNumberOne = Random.Range(1, 8);
+        RandomNumberOne = Random.Range(1, 9);
 
-        RandomNumberTwo = Random.Range(1, 8);
+        RandomNumberTwo = Random.Range(1, 9);
         while (RandomNumberTwo == RandomNumberOne)
         {
-            RandomNumberTwo = Random.Range(1, 8);
+            RandomNumberTwo = Random.Range(1, 9);
         }
 
-        RandomNumberThree = Random.Range(1, 8);
+        RandomNumberThree = Random.Range(1, 9);
         while (RandomNumberThree == RandomNumberOne | RandomNumberThree == RandomNumberTwo)
         {
-            RandomNumberThree = Random.Range(1, 8);
+            RandomNumberThree = Random.Range(1, 9);
         }
 
         switch (RandomNumberOne)
